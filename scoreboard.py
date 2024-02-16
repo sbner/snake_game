@@ -29,4 +29,4 @@ class Scoreboard(Turtle):
         self.home()
         self.write("Game Over.", align=TEXT_ALIGN, font=FONT)
         self.teleport(0,-30)
-        self.write(f"To try again type 'r'.", align=TEXT_ALIGN, font=SMALLER_FONTRR)
+        self.write(f"To try again type 'r'.", align=TEXT_ALIGN, font=SMALLER_FONT)
